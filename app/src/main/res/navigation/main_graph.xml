@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/movieFavoriteFragment"
-        android:name="com.aether.mymovieappmvp.MovieFavoriteFragment"
+        android:name="com.aether.mymovieappmvp.view.favoritemovies.MovieFavoriteFragment"
         android:label="fragment_movie_favorite"
         tools:layout="@layout/fragment_movie_favorite" />
     <fragment
         android:id="@+id/movieMainFragment"
-        android:name="com.aether.mymovieappmvp.MovieMainFragment"
+        android:name="com.aether.mymovieappmvp.view.movies.MovieMainFragment"
         android:label="fragment_movie_main"
         tools:layout="@layout/fragment_movie_main" >
         <action

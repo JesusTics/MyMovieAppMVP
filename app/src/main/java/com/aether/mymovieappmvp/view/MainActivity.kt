@@ -1,4 +1,4 @@
-package com.aether.mymovieappmvp
+package com.aether.mymovieappmvp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
+import com.aether.mymovieappmvp.R
+import com.aether.mymovieappmvp.view.favoritemovies.MovieFavoriteFragment
+import com.aether.mymovieappmvp.view.movies.MovieMainFragment
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {

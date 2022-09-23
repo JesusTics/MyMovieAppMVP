@@ -1,10 +1,9 @@
-package com.aether.mymovieappmvp
+package com.aether.mymovieappmvp.view.movies
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import com.aether.mymovieappmvp.R
 import com.aether.mymovieappmvp.databinding.FragmentMovieMainBinding
 
 class MovieMainFragment : Fragment(R.layout.fragment_movie_main) {
