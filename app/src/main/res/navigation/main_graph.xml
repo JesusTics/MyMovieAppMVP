@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/movieMainFragment">
+
+    <fragment
+        android:id="@+id/movieFavoriteFragment"
+        android:name="com.aether.mymovieappmvp.MovieFavoriteFragment"
+        android:label="fragment_movie_favorite"
+        tools:layout="@layout/fragment_movie_favorite" />
+    <fragment
+        android:id="@+id/movieMainFragment"
+        android:name="com.aether.mymovieappmvp.MovieMainFragment"
+        android:label="fragment_movie_main"
+        tools:layout="@layout/fragment_movie_main" >
+        <action
+            android:id="@+id/action_movieMainFragment_to_movieFavoriteFragment"
+            app:destination="@id/movieFavoriteFragment" />
+    </fragment>
+</navigation>
